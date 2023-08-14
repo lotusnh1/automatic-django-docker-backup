@@ -1,5 +1,5 @@
 # automatic-django-docker-backup
-This absh script creates back up json files of a django projects from all Docker containers which are up and running.
+This bash script creates back up json backup from a django projects  Docker containers which are up and running.
 
 In terminal :
 
