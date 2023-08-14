@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/backups
+
 for OUTPUT in $(docker ps --format '{{.ID}}')
 do 
 	current_date=$(date +%Y-%m-%dT%H-%M-%S)
