@@ -8,4 +8,4 @@ do
 	docker exec -d  $OUTPUT  sh -c "python manage.py dumpdata > $backup_file_name"
 	
 done
-echo 'check docker container directory to spot the json back up file!'
+echo 'check project directory to spot the json back up file!'
